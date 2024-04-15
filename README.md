@@ -18,3 +18,12 @@ Os testes de carga são necessários para avaliar o comportamento da API em dife
 
 ## 4.2. Como implementarias uma solução de Continuous Testing, justifica;
 Uma integração com a pipeline para execução de testes a cada criação de merge request acredito que seria uma boa solução para continuous testing.
+
+# Execução dos testes
+
+1. Baixar os dois arquivo .json;
+2. O arquivo User.postman_collection.json é a coleção das chamadas a api com os testes;
+3. O arquivo GoRestAPI.postman_environment.json é onde ficará armazenado as variáveis de ambiente;
+4. Ao realizar o import do ambiente é necessário gerar o token que será utilizado para autenticar as requisições;
+5. Após importar a coleção e o ambiente no postman é possível executar os testes;
+6. Clicar com o botão direito na coleção > Run collection > selecionar as requisições que deseja testar > Clickar no botão run.
